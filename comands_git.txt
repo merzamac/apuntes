@@ -41,6 +41,8 @@ git
 	push origin --tags
 	tag -d name_tag 
 	push origin :refs/tags/name_tag
+	show-branch --all
+	gitk
 		
 	
 	
