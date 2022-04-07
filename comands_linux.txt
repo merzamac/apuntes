@@ -1,0 +1,100 @@
+ls
+ls *.txt
+ls name*
+ls name?
+ls [a]*
+ls [[:upper:]]*
+ls -lSah
+tree -L 2
+cd 
+touch name
+mkdir name
+rm -i name_arch
+rm -ri name_dir
+file name_arch
+mv arch/dir destination
+cp arch/dir destination
+head name 
+head name -n 15
+tail name 
+less name
+
+open arch
+xdg-open name
+
+open dir
+nautilus <dir> abrir dir
+
+help 
+man 
+info
+whatis 
+
+redirecciones
+ls Documents > archivo.txt
+ls Pictures >> archivo.txt
+ls djbjfba 2> archivo.txt
+ls djbjfba > archivo.txt 2>&1
+
+cat arh1 arh2 concatena la salida
+
+sentencia 
+; secuencial
+&&
+||
+& sentence simultanea
+
+pape operator
+|
+|sort|tee name.txt
+
+
+
+chmod u-wrx arch
+chmod go+wrx arch
+
+busqueda 
+which nameprogram
+find <./> -name '*.txt'
+find <./> -name name_arch
+find <./> -type d -name name_dir
+find <./> -size 20M
+grep <name> archivo.xxx
+grep -i <name> archivo.xxx
+grep -c <name> archivo.xxx
+grep -v <name> archivo.xxx
+wc -l arch.xxx
+wc arch.xxx
+wc -w
+wc -c arch.xxx
+
+link simbolicos
+ln -s dir name_dir
+
+red
+ifconfig
+ping website
+curl website
+wget website
+traceroute website
+netstat 1
+
+comprimir
+tar -cvf name_arch.tar name_arch
+tar -cvzf name_arch.tar.gz name_arch
+descomprimir
+tar -xvf name_arch.tar
+tar -xzvf name_arch.tar.gz
+
+zip -r arch.zip name_arch
+unzip name_arch.zip
+
+top
+ps
+kill PID
+kill 11353
+
+
+
+
+		

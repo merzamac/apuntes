@@ -1,0 +1,24 @@
+ INSTALAR WORKBENCH UBUNTU 20.04
+
+
+ 1. Instalar Mysql
+ apt-get update
+ apt-get install mysql-server
+
+
+ 2. Instalar Workbench Desde la tienda 
+ (no esta en el repositorio)
+
+
+ 3. Habilitar permisos en passwords para Workbench
+
+
+ 4. En MySQL:
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '1234'; 
+
+service mysql status
+
+service mysql start
+service mysql stop
+

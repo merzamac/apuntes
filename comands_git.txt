@@ -1,0 +1,48 @@
+Git
+	init 
+	add .
+	commit -m "message"
+		   -am "message"  /agrega un add
+	status
+	show
+	log
+	log --stat
+	reset HEAD
+		--soft
+		--hard
+	checkout ID/master arch.txt
+	branch new_name_HEAD
+	
+	clone url
+	push
+	_____ 
+	fetch
+	merge
+	pull
+	
+git 
+	branch -M main
+	remote add origin https
+	remote
+	remote -v
+	pull origin main 
+	pull origin main --allow-unrelated-histories
+	push -u origin main
+	
+tags
+	
+git 
+	log --all --graph --decorate --oneline
+	alias name = "code"
+	tag -a name_tag -m "mensaje" id
+	tag
+	show-ref --tags
+	history
+	push origin --tags
+	tag -d name_tag 
+	push origin :refs/tags/name_tag
+		
+	
+	
+	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
+
