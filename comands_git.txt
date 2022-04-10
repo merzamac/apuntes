@@ -20,13 +20,14 @@ Git
 	merge
 	pull
 	
-git 
 	branch -M main
-	remote add origin https
 	remote
-	remote -v
-	pull origin main 
-	pull origin main --allow-unrelated-histories
+		-v
+		add origin https
+		
+	pull 
+		origin main 
+		origin main --allow-unrelated-histories
 	push -u origin main
 	
 tags
@@ -43,8 +44,22 @@ git
 	push origin :refs/tags/name_tag
 	show-branch --all
 	gitk
-		
-	
+	stash
+	stash list
+	stash pop
+	stash drop
+	clean --dry-run
+	clean -f 
+	cherry-pick ID
+	commit --amend
+	reflog
+	grep -<n,c> <word>
+	log -S "word"
+
+	shortlog -sn --all --no-merges
+	git config --global alias.stats "shortlog -sn --all --no-merges"
+	blame
+	branch <-a -r>
 	
 	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
 
